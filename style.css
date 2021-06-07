@@ -1,0 +1,96 @@
+body{
+    background-color: gray;
+}
+.container{
+    width: 99vw;
+    height: 85%;
+    margin-right: 0;
+display: block;
+}
+
+.tryAgain{
+    width: 10vw;
+    height: 4vh;
+    margin-left: 35%;
+    background-color: brown;
+    text-align: center;
+    font-size: 1vmax;
+    box-shadow: 1px 1px 5px #2c3e50;
+    cursor: pointer;
+
+}
+
+.button{
+    width: 10vw;
+    height: 3.5vh;
+    background-color: brown;
+    text-align: center;
+    font-size: 1vmax;
+    box-shadow: 1px 1px 5px #2c3e50;
+    cursor: pointer;
+}
+.instructions{
+text-align: center;
+background-color: palegoldenrod; 
+height: 100%;
+}
+.header{
+display: inline-block;
+}
+.score{
+    width: 20%;
+    height: 5%;
+    font-size: large;
+}
+.scoreNum{
+    display: inline-block;
+}
+
+.box{
+    vertical-align:middle;
+    display: inline-block;
+  border: 1px solid black;
+  background-color: palegoldenrod; 
+    
+  text-align: center;
+}
+#block{
+    background-color: brown; 
+
+}
+
+.box .fas {
+
+    font-size: 1.4rem;
+padding: 0.325em 0;
+}
+.fab {
+       font-size: 1.4rem;
+       padding: 0.325em 0;
+    }
+.catWin{
+    background-image: url("https://media.giphy.com/media/94F78AUZ5b5Dy/giphy.gif");
+    width: 50vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.crabWin{
+    background-image: url("https://media.giphy.com/media/RVaqnLYmO79C0/giphy.gif");
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    background-repeat: no-repeat;
+
+}
+.tie{
+    background-image: url("https://media.giphy.com/media/3ohrysKImgiyrEZJzq/giphy.gif");
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    background-repeat: no-repeat;
+
+}
